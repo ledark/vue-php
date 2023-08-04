@@ -1,0 +1,33 @@
+{
+    "name": "ledark/vue-php",
+    "type": "library",
+    "description": "Use Vue.js with PHP",
+    "keywords": [
+        "vue3"
+    ],
+    "homepage": "https://github.com/ledark/vue-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ricardo Bermejo",
+            "email": "mestreledark@gmail.com",
+            "homepage": "http://rbframeworks.com.br",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RBVue\\": [
+                "src/",
+                "tests/"
+            ]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0.0",
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}
